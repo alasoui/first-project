@@ -1,0 +1,36 @@
+$(document).ready(function(){
+  $(".make").hide()
+  $("#learncous").click(function(){
+  	$(".food").hide();
+  	$("#makecous").show("slow");
+  });
+  $("#learnojja").click(function(){
+  	$(".food").hide();
+  	$("#makeojja").show("slow");
+  });
+  	$("#learnlab").click(function(){
+  	$(".food").hide();
+  	$("#makelab").show("slow");
+  });
+  	$("#learnbrik").click(function(){
+  	$(".food").hide();
+  	$("#makebrik").show("slow");
+  });
+
+    $("#home1").click(function(){
+  	$(".food").show("slow");
+  	$(".make").hide();
+  });
+    $("#home2").click(function(){
+  	$(".food").show("slow");
+  	$(".make").hide();
+  });
+    $("#home3").click(function(){
+  	$(".food").show("slow");
+  	$(".make").hide();
+  });
+    $("#home4").click(function(){
+  	$(".food").show("slow");
+  	$(".make").hide();
+  });
+});

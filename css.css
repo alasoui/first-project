@@ -1,3 +1,43 @@
-body {
-	background-color:red;
+body{
+	background-color: #FFF8DC;
+}
+#head{
+	background-image: url("tunisianfood.jpg");
+	background-repeat: no-repeat;
+	background-size:100% 100%;
+	font-family:cursive;
+	height: 5cm;
+	color: #DEB887;
+	text-shadow: 2px 2px 4px #000000;
+}
+
+ img{
+
+ 	box-shadow: 2px 2px 4px #000000;
+ }
+ .food{
+ 	text-align: center;
+ }
+
+ p{
+   margin: 1cm 7cm 1cm 7cm ;
+ }
+ h2 {
+ 	font-family:cursive;
+ 	color: #DEB887;
+	text-shadow: 2px 2px 4px #000000;
+ 	margin-left: 5cm ;
+ 	margin-top: 1cm;
+  text-align: left;
+}
+
+ 
+.make{
+	margin-left: 7cm;
+}
+
+.ho{
+	width: 15%;
+	background-color: #CD853F;
+	margin-left: 0cm;
 }
